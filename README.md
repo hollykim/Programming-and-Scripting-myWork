@@ -1,1 +1,1 @@
-# pands-mywork
+##📚 This is repositpory for my python programing practice 
