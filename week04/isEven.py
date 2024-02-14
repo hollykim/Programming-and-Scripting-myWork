@@ -8,5 +8,24 @@ if (userInput % 2 == 0):
 else: print (f"{userInput} is odd number")
 
 
-#grade.py
+# test booleans
 
+is_alive = True
+print (is_alive)
+
+var = (2 != 4)
+print (f"var is {var}")
+
+logic = (2 <= 100) and ( 3 >= 100)
+print (f"logic is {logic}")
+
+
+# test if
+
+c = 1
+if c == 1:
+        print ("I am true")
+else: 
+        print ("I am false")
+
+print (c)
