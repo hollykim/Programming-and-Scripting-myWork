@@ -19,9 +19,12 @@ print (y, z , end="") # No new line between line 16 and 17. No new line for the 
 print (f"{y} & {z}")
 print ("{} + {}".format(y,z))
 
-def cube (number):
+def toPower (number, power = 2):
     print (number)
-    return (number * 2)
+    return (number ** power)
 
-ans = cube (77)
+ans = toPower (23)
 print (f"we got {ans}")
+
+num = 45
+print (f"and {num} power is {toPower(num)}")
